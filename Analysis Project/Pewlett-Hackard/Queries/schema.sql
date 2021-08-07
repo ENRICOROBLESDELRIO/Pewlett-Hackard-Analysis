@@ -64,8 +64,11 @@ SELECT * FROM departments;
 
 SELECT * FROM titles;
 	
-	
-	
+SELECT * FROM employees;
+
+-- IF any error use DROP TABLE employees CASCADE; 
+-- Tells Postgres that we want to remove the Employees table from the database completely.
+-- CASCADE; indicates that we also want to remove the connections to other tables in the database.
 	
 	
 	
